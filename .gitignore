@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+customer-churn-prediction.zip
+.venv/

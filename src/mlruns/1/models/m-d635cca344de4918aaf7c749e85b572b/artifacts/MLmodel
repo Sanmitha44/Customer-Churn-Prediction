@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/Student/Desktop/Customer-Churn-Prediction/src/mlruns/1/models/m-d635cca344de4918aaf7c749e85b572b/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.13.14
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.3.0
+mlflow_version: 3.14.0
+model_id: m-d635cca344de4918aaf7c749e85b572b
+model_size_bytes: 312233
+model_uuid: m-d635cca344de4918aaf7c749e85b572b
+prompts: null
+run_id: a467a2dad9ff42bcba1c225580b9c4c7
+utc_time_created: '2026-07-13 03:51:06.678610'
